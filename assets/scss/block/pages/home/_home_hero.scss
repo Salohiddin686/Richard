@@ -1,0 +1,43 @@
+/* hero */
+.hero_left_right {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .hero_left_title {
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 80px;
+          font-weight: 400;
+          line-height: 80px;
+          padding-top: 10px;
+        }
+        
+        .hero_left_suptitle {
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 44px;
+        }
+        
+        .hero_btn {
+          width: 170px;
+          height: 66px;
+          border-radius: 3px;
+          background: rgb(252, 10, 126);
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          border: none;
+          margin-top: 25px;
+        }
+        
+        .hero_right_foto {
+          width: 532px;
+          height: 680px;
+        }
+        

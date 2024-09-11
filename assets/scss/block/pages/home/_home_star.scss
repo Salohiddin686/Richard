@@ -1,0 +1,65 @@
+/* star */
+
+.star {
+          width: 100%;
+          background: linear-gradient(-45.00deg, rgb(69, 14, 75), rgb(60, 12, 65) 24.479%, rgba(207, 0, 99, 0) 100%), rgb(207, 0, 99);
+          padding-bottom: 100px;
+      }
+      
+      .star_wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .star_box {
+          width: 395px;
+          height: 234px;
+          margin-top: 165px;
+      }
+      
+      .star_title {
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 38px;
+          font-weight: 400;
+          line-height: 48px;
+          text-align: center;
+      }
+      
+      .star_btn_wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+      }
+      
+      .star_btn {
+          width: 190px;
+          height: 66px;
+          border-radius: 3px;
+          background: rgb(252, 10, 126);
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          border: none;
+          margin-top: 40px;
+      }
+      
+      .star_btn2 {
+          width: 171px;
+          height: 66px;
+          box-sizing: border-box;
+          border: 1px solid rgb(176, 75, 179);
+          color: rgb(255, 255, 255);
+          font-family: Gothic A1;
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 40px;
+          line-height: 26px;
+          border-image: none;
+          background: transparent;
+          background-color: transparent;
+      }

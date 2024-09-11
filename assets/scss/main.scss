@@ -1,0 +1,189 @@
+@import "./fonts";
+@import "./global";
+@import "./normalizes";
+@import "./varibles";
+@import "./pages/pages";
+@import "./block/block";
+
+/* media 1200 */
+
+@media (max-width: 1200px) {
+
+    .container {
+        max-width: 900px;
+    }
+
+    .header {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .hero_left_right {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_right_foto {
+        display: none;
+    }
+
+    .info_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .comp {
+        height: 100%;
+        padding-bottom: 120px;
+    }
+
+    .comp_foto {
+        display: none;
+    }
+
+    .comp_foto {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    .logo_wrapper {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 800px) {
+    .food_left_right {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .food_left_right_2 {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .num_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .header_text {
+        display: none;
+    }
+
+    .header_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .est_title {
+        width: 100%;
+    }
+
+    .est_suptitle_wrapper {
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .comp_title {
+        width: 100%;
+    }
+
+    .footer_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero_left_title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero_left_title {
+        font-size: 50px;
+    }
+
+    .sem_left_right {
+        display: flex;
+        gap: 60px;
+    }
+
+    .food_foto {
+        width: 100%;
+    }
+
+    .hero_left_suptitle {
+        font-size: 25px;
+    }
+
+    .comp_title {
+        font-size: 30px;
+    }
+
+    .star_btn {
+        width: 80%;
+    }
+
+    .star_btn2 {
+        width: 80%;
+    }
+
+    .get_inp {
+        width: 70%;
+    }
+
+    .get_btn {
+        width: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    .info_wrapper {
+        gap: 55px;
+    }
+
+    .info_box_suptitle_text {
+        width: 100%;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .est_suptitle_wrapper {
+        padding-top: 350px;
+    }
+
+    .sem_left_right {
+        display: flex;
+        gap: 130px;
+    }
+
+}

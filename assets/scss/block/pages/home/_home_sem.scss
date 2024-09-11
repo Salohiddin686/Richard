@@ -1,0 +1,132 @@
+/* sem */
+
+
+.sem {
+          width: 100%;
+          margin-top: 160px;
+      }
+      
+      .sem_left_right {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      
+      }
+      
+      
+      .sem_left_text {
+          color: rgb(168, 168, 168);
+          font-family: Gothic A1;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+      }
+      
+      
+      .sem_left_title {
+          width: 258px;
+          height: 96px;
+          color: rgb(0, 0, 0);
+          font-family: Gothic A1;
+          font-size: 38px;
+          font-weight: 400;
+          line-height: 48px;
+          padding-top: 25px;
+      }
+      
+      .sem_left_suptitle {
+          width: 330px;
+          height: 210px;
+          color: rgb(107, 107, 107);
+          font-family: Gothic A1;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          padding-top: 55px;
+      }
+      
+      .serm_foto {
+          width: 100%;
+      }
+      
+      .sem_right_text {
+          color: rgb(168, 168, 168);
+          font-family: Gothic A1;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+      }
+      
+      
+      .sem_right_title {
+          color: rgb(0, 0, 0);
+          font-family: Gothic A1;
+          font-size: 38px;
+          font-weight: 400;
+          line-height: 48px;
+          padding-top: 25px;
+      }
+      
+      .sem_right_suptitle {
+          width: 330px;
+          height: 210px;
+          color: rgb(107, 107, 107);
+          font-family: Gothic A1;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          padding-top: 55px;
+      }
+
+      @media (max-width: 900px) {
+          .sem_left_right {
+              display: flex;
+              flex-direction: column-reverse;
+              gap: 20px;
+          }
+      
+          .sem_left {
+              text-align: center;
+          }
+      
+          .sem_left_text {
+              width: 100%;
+          }
+      
+          .sem_left_title {
+              width: 100%;
+          }
+      
+          .sem_left_suptitle {
+              width: 100%;
+          }
+      
+          .sem_right {
+              text-align: center;
+          }
+      
+          .sem_foto {
+              width: 100%;
+          }
+      
+          .sem_right_text {
+              width: 100%;
+          }
+      
+          .sem_right_title {
+              width: 100%;
+          }
+      
+          .sem_right_suptitle {
+              width: 100%;
+          }
+      
+          .sem_left_right_2 {
+              display: flex;
+              flex-direction: column;
+          }
+      }
